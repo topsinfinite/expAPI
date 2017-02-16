@@ -1,0 +1,122 @@
+{
+    "settings": {
+        "id": "1",
+        "title": "What would you want to check?",
+        "smilies": [
+            {
+                "label": "Awesome",
+                "image": "happy.gif",
+                "type": "happy"
+            },
+            {
+                "label": "Sad",
+                "image": "sad.gif",
+                "type": "sad"
+            },
+            {
+                "label": "Okay",
+                "image": "okay.gif",
+                "type": "okay"
+            }
+        ]
+    },
+    "metrics": 
+    [
+      {
+            "id": "1",
+            "label": "Speakers",
+            "icon": "speaker-icon.png",
+            "elements": 
+            [
+                {
+                    "id": "1",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                },
+                {
+                    "id": "2",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                },
+                {
+                    "id": "3",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                },
+                {
+                    "id": "4",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "label": "Events",
+            "icon": "speaker-icon.png",
+            "elements": 
+            [
+                {
+                    "id": "1",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                },
+                {
+                    "id": "2",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                },
+                {
+                    "id": "3",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                },
+                {
+                    "id": "4",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "label": "Venue",
+            "icon": "speaker-icon.png",
+            "elements": 
+            [
+                {
+                    "id": "1",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                },
+                {
+                    "id": "2",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                },
+                {
+                    "id": "3",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                },
+                {
+                    "id": "4",
+                    "title": "Temitope Fatayo",
+                    "icon": "http:/localhost/fatayo.png",
+                    "note": "Tope is an estranged farmer and developer and this place should take long short bio"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="877e2cba94954929a54bc1d14e71547c" Name="Diagram1">
+        <EntityTypeShape EntityType="CustomerFeedbackGenericDBModel.Customer" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CustomerFeedbackGenericDBModel.DeviceTbl" Width="1.5" PointX="0.75" PointY="3.5" />
+        <EntityTypeShape EntityType="CustomerFeedbackGenericDBModel.Event" Width="1.5" PointX="0.75" PointY="7" />
+        <EntityTypeShape EntityType="CustomerFeedbackGenericDBModel.EventDevice" Width="1.5" PointX="3" PointY="7.375" />
+        <EntityTypeShape EntityType="CustomerFeedbackGenericDBModel.EventFeedback" Width="1.5" PointX="5.25" PointY="9.5" />
+        <EntityTypeShape EntityType="CustomerFeedbackGenericDBModel.HomeSetting" Width="1.5" PointX="3" PointY="16.375" />
+        <EntityTypeShape EntityType="CustomerFeedbackGenericDBModel.IconGallery" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="CustomerFeedbackGenericDBModel.MetricElement" Width="1.5" PointX="8.25" PointY="9.875" />
+        <EntityTypeShape EntityType="CustomerFeedbackGenericDBModel.SmileyAction" Width="1.5" PointX="5.75" PointY="3.75" />
+        <AssociationConnector Association="CustomerFeedbackGenericDBModel.FK_EventDevice_DeviceTbl" />
+        <AssociationConnector Association="CustomerFeedbackGenericDBModel.FK_EventDevice_Event" />
+        <AssociationConnector Association="CustomerFeedbackGenericDBModel.FK_EventFeedback_Event" />
+        <AssociationConnector Association="CustomerFeedbackGenericDBModel.FK_HomeSetting_Event" />
+        <AssociationConnector Association="CustomerFeedbackGenericDBModel.FK_MetricElement_Event" />
+        <AssociationConnector Association="CustomerFeedbackGenericDBModel.FK_EventFeedback_MetricElement" />
+        <EntityTypeShape EntityType="CustomerFeedbackGenericDBModel.EventMetric" Width="1.5" PointX="3" PointY="11.25" />
+        <AssociationConnector Association="CustomerFeedbackGenericDBModel.FK_EventMetric_Event" />
+        <AssociationConnector Association="CustomerFeedbackGenericDBModel.FK_EventFeedback_EventFeedback" />
+        <AssociationConnector Association="CustomerFeedbackGenericDBModel.FK_MetricElement_EventMetric" />
+        <AssociationConnector Association="CustomerFeedbackGenericDBModel.FK_EventFeedback_Customer" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

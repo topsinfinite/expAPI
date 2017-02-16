@@ -1,0 +1,74 @@
+{
+    "$schemas": "http://json-schema.org/draft-03/schema",
+    "type": "object",
+    "properties": {
+        "settings": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "required": true
+                },
+                "title": {
+                    "type": "string",
+                    "required": true
+                },
+                "smilies": {
+                    "type": "array",
+                    "smiley": {
+                      "type" : "object",
+                      "properties" : {
+                        "label" : { "type" : "string", "required" : true },
+                        "image" : { "type" : "string", "required" : true },
+                        "type" : { "type" : "string", "required" : true}
+                      }
+                    }
+                }
+            }
+        },
+        "metrics": {
+            "type": "array",
+            "metric": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "required": true
+                    },
+                    "label": {
+                        "type": "string",
+                        "required": true
+                    },
+                    "icon": {
+                        "type": "string",
+                        "required": true
+                    },
+                    "elements": {
+                        "type": "array",
+                        "element": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "string",
+                                    "required": true
+                                },
+                                "title": {
+                                    "type": "string",
+                                    "required": true
+                                },
+                                "icon": {
+                                    "type": "string",
+                                    "required": true
+                                },
+                                "note": {
+                                    "type": "string",
+                                    "required": true
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
